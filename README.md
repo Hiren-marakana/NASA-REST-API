@@ -20,11 +20,11 @@ Create a Lambda function <b>earthobjects</b> using AWS console, exposed via an N
 * Call the NASA-API in Lambda function.
 * After receiveing the API response we get:
   
-  i.      The ID
-  ii.     The name of the Object
-  iii.    The diameter of the Object, in metres
-  iv.     Whether or not the Object is hazardous
-  v.      The velocity of the object in Kilometres per hour
+  * The ID
+  * The name of the Object
+  * The diameter of the Object, in metres
+  * Whether or not the Object is hazardous
+  * The velocity of the object in Kilometres per hour
                      
  <b>Step 4.</b> Get the Invoked URL of API from aws console
  
