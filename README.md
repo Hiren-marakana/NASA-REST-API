@@ -18,7 +18,7 @@ Create a Lambda function <b>earthobjects</b> using AWS console, exposed via an N
 # NOTE: Refer to Index.js to get below response from function
    
 * Call the NASA-API in Lambda function.
-* After receiveing the API response we get:
+* After receiveing the API response we able to read the below selected results as per reuirement:
   
   * The ID
   * The name of the Object
