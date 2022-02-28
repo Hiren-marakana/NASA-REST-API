@@ -15,6 +15,9 @@ Create a Lambda function <b>earthobjects</b> using AWS console, exposed via an N
                
 <b>Step 3.</b> After calling the API.
 
+               
+   # NOTE: Refer to Index.js to get below response from function
+   
                * Call the NASA-API in Lambda function.
                * After receiveing the API response we get:
                
@@ -23,5 +26,9 @@ Create a Lambda function <b>earthobjects</b> using AWS console, exposed via an N
                      iii.    The diameter of the Object, in metres
                      iv.     Whether or not the Object is hazardous
                      v.      The velocity of the object in Kilometres per hour
-              
+                     
+ <b>Step 4.</b> Get the Invoked URL of API from aws console
+                * From AWS API Gateway tab go to details coloumn and note down the Invoke URL of API created in step 2
+                
+                Invoke URL for earthobjects is: https://kwbi1k66dh.execute-api.us-west-2.amazonaws.com/earthobjects
             
