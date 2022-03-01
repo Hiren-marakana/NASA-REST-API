@@ -1,0 +1,25 @@
+{
+  "name": "hiren",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Hiren-marakana/NASA-REST-API.git"
+  },
+  "author": "hiren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hiren-marakana/NASA-REST-API/issues"
+  },
+  "homepage": "https://github.com/Hiren-marakana/NASA-REST-API#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "https": "^1.0.0",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
+  }
+}
